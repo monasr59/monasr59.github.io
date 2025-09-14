@@ -78,7 +78,7 @@ nav a:hover {
     /* Increase the image container size to display a larger, more circular portrait */
     width: 1000px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #30363d;
     /* Use the uploaded portrait as the hero profile image */
     background-image: url('nasr_profile.jpg');
