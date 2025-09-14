@@ -75,10 +75,10 @@ nav a:hover {
 }
 
 .profile-placeholder {
-    /* Increase the image container size to display a larger, more circular portrait */
+    /* Increase the image container size to display a larger portrait with elliptical proportions */
     width: 1000px;
     height: 250px;
-    border-radius: 25%;
+    border-radius: 50%;
     background-color: #30363d;
     /* Use the uploaded portrait as the hero profile image */
     background-image: url('nasr_profile.jpg');
@@ -264,6 +264,26 @@ nav a:hover {
 
 .social-icons a:hover {
     color: #58a6ff;
+}
+
+/* Custom style for the Khamsat icon: a yellow-orange square with a bold numeral */
+.khamsat-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: #f1c40f; /* yellow-orange tone reminiscent of the Khamsat logo */
+    color: #0d1117; /* dark text for contrast */
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.khamsat-icon:hover {
+    background-color: #d4ac0d;
+    color: #0d1117;
 }
 
 /* Footer */
