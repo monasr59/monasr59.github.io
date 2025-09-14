@@ -36,6 +36,8 @@ header h1 {
 }
 
 nav ul {
+
+    
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -71,6 +73,7 @@ nav a:hover {
         flex-direction: row;
         align-items: flex-start;
         text-align: left;
+
     }
 }
 
