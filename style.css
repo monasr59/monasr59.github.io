@@ -76,7 +76,7 @@ nav a:hover {
 
 .profile-placeholder {
     /* Increase the image container size to display a larger, more circular portrait */
-    width: 250px;
+    width: 1000px;
     height: 250px;
     border-radius: 50%;
     background-color: #30363d;
