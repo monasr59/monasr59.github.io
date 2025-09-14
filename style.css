@@ -195,6 +195,12 @@ nav a:hover {
     }
 }
 
+@media (min-width: 1024px) {
+    .cert-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .cert-card {
     background-color: #161b22;
     border: 1px solid #30363d;
@@ -214,6 +220,13 @@ nav a:hover {
 .cert-card p {
     color: #c9d1d9;
     font-size: 0.9rem;
+}
+
+/* Style for certification icons */
+.cert-card i {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #58a6ff;
 }
 
 /* Contact */
