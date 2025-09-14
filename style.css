@@ -36,8 +36,6 @@ header h1 {
 }
 
 nav ul {
-
-    
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -73,7 +71,6 @@ nav a:hover {
         flex-direction: row;
         align-items: flex-start;
         text-align: left;
-
     }
 }
 
@@ -82,6 +79,10 @@ nav a:hover {
     height: 200px;
     border-radius: 50%;
     background-color: #30363d;
+    /* Use the uploaded portrait as the hero profile image */
+    background-image: url('nasr_profile.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-text h2 {
